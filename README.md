@@ -92,7 +92,7 @@
             <h2>Contact Us</h2>
             <p>For more information about our services, products, or courses, please contact us at:</p>
             <p>Email: info@murshidabadorganicfarm.com</p>
-            <p>Phone: +91-123-456-7890</p>
+            <p>Phone: +91-7092090008</p>
             <p>Address: Murshidabad Organic Farm, Murshidabad, West Bengal, India</p>
         </div>
     </div>
