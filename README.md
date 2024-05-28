@@ -9,29 +9,39 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f9f0;
             color: #333;
         }
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #333;
+            background-color: #333;
         }
         nav a {
             color: white;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            transition: background-color 0.3s, color 0.3s;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #4CAF50;
+            color: white;
         }
         .container {
             padding: 20px;
@@ -42,6 +52,9 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #4CAF50;
         }
         .footer {
             background-color: #333;
@@ -64,6 +77,8 @@
         <a href="#services">Services</a>
         <a href="#products">Products</a>
         <a href="#course">Course</a>
+        <a href="#collaborations">Collaborations</a>
+        <a href="#subscription">Subscription</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="container">
@@ -81,18 +96,29 @@
         </div>
         <div id="course" class="section">
             <h2>6-Month Course Module</h2>
-            <p>We are excited to announce a detailed 6-month course module tailored for graduate scholars who are passionate about sustainable agriculture. Starting from the Selling Module, our team envisions a future where international collaboration is not only encouraged but also celebrated. Through this course, participants will gain hands-on experience and knowledge in driving innovation in future food and medications.</p>
-            <p>Our dream within the selling module is to create a revolution that will not only transform these industries but also shape the future of how we produce, distribute, and consume essential resources. We aim to create a global network of like-minded individuals and organizations who share our passion for shaping the future of food and medications.</p>
+            <p>We are excited to announce a detailed 6-month course module tailored for graduate scholars who are passionate about sustainable agriculture. Our curriculum includes:</p>
+            <ul>
+                <li><strong>Vegetable Production:</strong> Learn the intricacies of growing a variety of organic vegetables, including soil preparation, planting, maintenance, and harvesting.</li>
+                <li><strong>Cattle Farming:</strong> Understand the principles of organic cattle farming, including animal welfare, organic feed, breeding, and dairy production.</li>
+                <li><strong>Chicken and Egg Production:</strong> Explore organic poultry farming techniques, from raising chicks to egg production, ensuring humane and sustainable practices.</li>
+                <li><strong>Fruit Production:</strong> Gain expertise in cultivating organic fruits, including orchard management, pest control, and post-harvest handling.</li>
+                <li><strong>Meat Production:</strong> Study sustainable and humane meat production practices, including organic feed, animal health, and ethical processing.</li>
+            </ul>
+            <p>Our training programs are designed for both beginners and experienced farmers, offering hands-on experience and expert guidance.</p>
         </div>
-        <div id="healing" class="section">
-            <h2>Healing and Counselling Counter</h2>
-            <p>At the Murshidabad Organic Farm, we are pleased to announce the addition of a healing and counselling counter. This counter will be available to people of all ages, providing support and guidance to those in need. Whether you are seeking emotional healing or professional counselling, our dedicated team is here to assist you. Visit our healing and counselling counter and take a step towards a healthier and happier life.</p>
+        <div id="collaborations" class="section">
+            <h2>Collaborations</h2>
+            <p>We are actively seeking partnerships with farmers and educational institutions to promote organic farming practices. By collaborating with local farmers, we aim to create a network of sustainable farms that share knowledge and resources. Our partnerships with colleges will facilitate research, internships, and educational opportunities for students passionate about organic agriculture.</p>
+        </div>
+        <div id="subscription" class="section">
+            <h2>Subscription System</h2>
+            <p>We offer a subscription system that allows families to access a variety of organic products throughout the year. Subscribers will receive regular deliveries of fresh vegetables, fruits, dairy, eggs, and meat products. This system ensures that families can enjoy the health benefits of organic produce while supporting sustainable farming practices.</p>
         </div>
         <div id="contact" class="section">
             <h2>Contact Us</h2>
             <p>For more information about our services, products, or courses, please contact us at:</p>
-            <p>Email: info@murshidabadorganicfarm.com</p>
-            <p>Phone: +91-7092090008</p>
+            <p>Email: <a href="mailto:mdsfsk@gmail.com">mdsfsk@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917092090008">+91 70920 90008</a></p>
             <p>Address: Murshidabad Organic Farm, Murshidabad, West Bengal, India</p>
         </div>
     </div>
