@@ -84,7 +84,7 @@
     <div class="container">
         <div id="about" class="section">
             <h2>About Us</h2>
-            <p>We are thrilled to introduce "Murshidabad Organic Farm," a pioneering initiative dedicated to organic farming. With five years of experience, we have diligently developed a robust research and development system as well as a comprehensive product design system. Additionally, we are proud to hold an export-import license, enabling us to facilitate a wide range of organic farming designs.</p>
+            <p>We are thrilled to introduce "Murshidabad Organic Farm," a pioneering initiative dedicated to organic farming. With five years of experience, we have diligently developed a robust research and development system as well as a comprehensive product design system, enabling us to facilitate a wide range of organic farming designs.</p>
         </div>
         <div id="services" class="section">
             <h2>Our Services</h2>
